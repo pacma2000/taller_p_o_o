@@ -1,0 +1,26 @@
+package punto20;
+
+class punto20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		for(i = 1; i<=n; i++) {
+			
+	        
+            for(j=1; j<=12; j++){
+            
+                System.out.println(n + " * " + j + " = " + n*j);
+                
+                }
+            
+            System.out.println();
+			  
+	  
+		   
+
+	}
+
+	}
+
+}

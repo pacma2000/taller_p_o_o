@@ -1,0 +1,11 @@
+package punto2;
+import java.util.Scanner;
+
+class punto2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

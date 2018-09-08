@@ -1,0 +1,41 @@
+package punto16;
+
+class punto16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int monto = 200000;
+		int pago = 100000;
+		int credito;
+		int deuda;
+		int interes;
+		int total;
+		
+		if(monto==pago) {
+			
+			System.out.println("El monto adeudado era de "+monto+" y usted a pagado "+pago+", usted se encunta a paz y salvo.");
+		}
+		else {
+			if(pago>monto) {
+				
+				credito=pago-monto;
+				
+				System.out.println("El monto adeudado era de "+monto+" y usted a pagado "+pago+", por ende usted tiene un credito a su favor por un valor de "+credito);
+			}
+			else {
+				if(pago<monto) {
+					
+					deuda=monto-pago;
+					interes=deuda*3/100;
+					total=deuda+interes;
+					
+					System.out.println("El monto adeudado era de "+monto+" y usted a pagado "+pago+", por ende su nuevo monto adeudado es "+deuda+", mas un interes del %3 que es "+interes+", su monto total es de: "+total);
+				}
+			}
+		}
+		
+
+	}
+
+}

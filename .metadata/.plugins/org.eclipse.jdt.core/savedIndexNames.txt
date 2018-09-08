@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\USUARIOS\Paula Andrea\Desktop\universidad\prog_orientada_objetos\corte 1\taller_final_corte1\.metadata\.plugins\org.eclipse.jdt.core
+3996102163.index
+1863176977.index

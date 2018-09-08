@@ -1,0 +1,45 @@
+package punto18;
+import java.util.Scanner;
+
+import java.util.Scanner;
+
+class punto18 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		char nombre;
+		int horas;
+		float costohora;
+		float sueldo;
+		float horaextra;
+		String nombre1;
+		
+		System.out.println("digite el nombre del empleado: ");
+		nombre1 = sc.nextLine();
+		
+		System.out.println("ingrese la cantidad de horas trabajadas: ");
+		horas = sc.nextInt();
+		
+		System.out.println("ingrese el valor de la hora: ");
+		costohora = sc.nextInt();
+		
+		if(horas<=40) {
+			
+			sueldo=costohora*horas;
+		}
+		else {
+			System.out.println("ingrese la cantidad de horas extras: ");
+			horaextra = sc.nextInt();
+			
+			sueldo = (float) (40 * costohora + horaextra * costohora* 1.5 /100);
+		}
+		
+		System.out.println("El sueldo del empleado es de: "+sueldo);
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package punto20;
+
+class punto20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int n=5;
+		int i,j;
+		
+		
+	while(j<12){
+            
+                System.out.println(n + " * " + j + " = " + n*j);
+                
+                }
+            
+            System.out.println();	  
+		   
+
+
+	}
+
+}

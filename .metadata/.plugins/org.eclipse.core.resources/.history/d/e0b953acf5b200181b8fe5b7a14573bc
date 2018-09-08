@@ -1,0 +1,30 @@
+package punto11;
+
+class punto11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int A=20;
+		int B=5;
+		int C=20;
+		int D=0;
+		
+		if((B==0)&&(D==0)) {
+			
+			System.out.println("INDEFINIDO.");
+			
+		}
+		else {
+			if(A/B==C/D) {
+				
+				System.out.println("SI.");
+			}
+			else {
+				System.out.println("NO.");
+			}
+		}
+
+	}
+
+}

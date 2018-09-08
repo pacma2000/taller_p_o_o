@@ -1,0 +1,25 @@
+package punto3;
+
+class punto3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int area;
+		int s;
+		int a = 3;
+		int b = 4;
+		int c = 5;
+		
+		s = (a + b + c)/2;
+		
+		area = s * (s - a)*(s - b)*(s - c);
+		
+		int resultado = (int) Math.sqrt(area);
+		
+		System.out.println("El area del triangulo es igual a: "+resultado);
+
+
+	}
+
+}

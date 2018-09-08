@@ -1,0 +1,29 @@
+package punto4;
+
+class punto4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int y;
+		int x;
+		int x1;
+		int a = 1;
+		int b = 2;
+		int c = -8;
+		int d; //es la b elevada al cuadrado.
+		
+		d=b*b;
+		
+		x1 = (d - 4 * a *c);
+		
+		int raiz = (int) Math.sqrt(x1);
+		
+		x = -b + raiz / 2 *a;
+		
+		System.out.println("x es "+x);
+		
+
+	}
+
+}
