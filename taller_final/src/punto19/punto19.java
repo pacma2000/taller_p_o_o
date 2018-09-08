@@ -22,9 +22,7 @@ class punto19 {
 			
 			if(numeros[i]<0) {
 				
-				neg++;
-				
-				
+				neg++;						
 			}
 			
 			else {
